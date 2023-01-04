@@ -1,0 +1,82 @@
+
+.icon{
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+
+}
+.icon p{
+    font-family: sans-serif;
+    font-size: 1.4rem;
+}
+.icon-menu{
+    display: block;
+    background:url('menu.svg') center / cover no-repeat;
+    border: none;
+    width: 30px;
+    height: 30px;
+}
+.menu.active{
+display: block;
+
+}
+.menu{
+    display: none;
+  
+}
+.section{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: auto;
+    padding: 10px 0px;
+    gap: 10px;
+}
+.section a{
+    border-bottom: 1px solid white;
+    padding-bottom: 3px;
+   width: 100%;
+  
+}
+
+
+.cuerpo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.cuerpo .card{
+    background-color: #333;
+    color: white;
+    height: 300px;
+    border-radius: 5px;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: white;
+    
+}
+.encender{
+    width: 100px;
+    padding: 10px;
+    background-color: rgb(7, 192, 69);color: white;
+}
+.apagar{
+    width: 100px;
+    padding: 10px;
+    background-color: rgba(226, 24, 24, 0.521);color: white;
+}
+button{
+    border: none;
+}
+
+
+
